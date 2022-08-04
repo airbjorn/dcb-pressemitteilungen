@@ -17,3 +17,5 @@ Veranstalter der nord- und ostdeutschen Landsmeisterschaften ist der Deutsche H�
 Ausrichter der German Flatlands ist seit 2003 der Drachenflieger-Club Berlin (DCB), der 1999 große Teile des ehemaligen russischen Militärflugplatzes „Altes Lager“ erworben und seither in ehrenamtlicher Arbeit zu einem international renommierten Schleppzentrum entwickelt hat.
 
 Das Fliegen im Fläming rückt immer mehr ins Interesse der Öffentlichkeit. Auch die Anwohner von Altes Lager, Niedergörsdorf und Jüterbog kommen als Besucher auf das Fluggelände, fliegen als Passagiere mit oder erlernen sogar selbst das Drachen- oder Gleitschirmfliegen bei der auf dem Platz ansässigen Flugschule. Mittlerweile ist der DCB Fliegerverein stark mit dem Fläming verankert und weit über Brandenburg und Berlin hinaus bekannt.
+
+![Gleitschirm-Pilot\*innen über Altes Lager](img/gs-wettbewerb-flatlands-altes-lager.jpg)
