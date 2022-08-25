@@ -1,4 +1,5 @@
-# Drachenflieger-Club richtet internationale Wettbewerbe aus
+# Pressemitteilung zu den Flatlands 2022
+## Drachenflieger-Club richtet internationale Wettbewerbe aus
 
 Vom 8. bis 20. August kämpfen Hängegleiter- und Gleitschirm-Pilot\*innen jeweils in drei separaten Wertungen um die Titel als Nord- und Ostdeutsche Meister sowie um einen Platz auf dem Siegertreppchen der German Flatlands. Bisher haben mehr als 140 Pilot\*innen ihre Teilnahme angemeldet - neben internationalen Spitzenpiloten sind darunter bekannte Namen aus der deutschen Liga, zahlreiche „Locals“ aus nord- und ostdeutschen Bundesländern und ambitionierte Nachwuchsflieger. Austragungsort ist das Fluggelände auf dem ehemaligen Militärflugplatz Altes Lager in Niedergörsdorf.
 
