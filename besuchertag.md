@@ -1,4 +1,4 @@
-# Pressemitteilung Tag der offenen Tür 2022
+# Pressemitteilung zum Tag der offenen Tür 2022
 ## Niedergörsdorf aus der Vogelperspektive entdecken!
 ### Drachen-und Gleitschirmflieger\*innen organisieren Tag der offenen Tür auf dem Flugplatz Altes Lager
 
