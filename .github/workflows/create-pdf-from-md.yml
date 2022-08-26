@@ -11,6 +11,8 @@ on:
     paths:
       - 'pms/**.md'
       - 'pms/images/**'
+  release:
+    types: [published]
 
 jobs:
   converttopdf:
