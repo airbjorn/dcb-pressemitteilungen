@@ -1,6 +1,6 @@
 # Pressemitteilung zum Tag der offenen Tür 2022
 ## Niedergörsdorf aus der Vogelperspektive entdecken!
-### Drachen-und Gleitschirmflieger\*innen organisieren Tag der offenen Tür auf dem Flugplatz Altes Lager
+### Drachen- und Gleitschirmflieger\*innen organisieren Tag der offenen Tür auf dem Flugplatz Altes Lager
 
 Die Pilot\*innen des Drachenflieger-Club Berlin e.V. laden Anwohner\*innen und Interessierte am Sonntag, den 4. September 2022 herzlich ein, die "lautlose Fliegerei" auf dem ehemaligen russischen Flugplatz Altes Lager kennenzulernen. Sie bieten dafür ein umfangreiches Veranstaltungsprogramm an.
 
