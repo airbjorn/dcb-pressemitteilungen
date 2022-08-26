@@ -18,4 +18,4 @@ Ansprechpartner für die Presse: Björn Gerhart, Berlin, +49 151 50813942, kont
 
 Foto: Markus Henninger
 
-![Gleitschirm-Pilot\*innen über Altes Lager](images/gs-wettbewerb-flatlands-altes-lager.jpg?raw=true "Gleitschirme über Altes Lager")
+![Gleitschirm-Pilot\*innen über Altes Lager](images/gs-wettbewerb-flatlands-altes-lager.jpg "Gleitschirme über Altes Lager")
