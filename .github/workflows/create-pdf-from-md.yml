@@ -42,7 +42,7 @@ jobs:
       - uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
           input_path: pms
-s          output_dir: pdfs-ohne-bild
+          output_dir: pdfs-ohne-bild
           # Default is true, can set to false to only get PDF files
           build_html: false
           build_pdf: true
