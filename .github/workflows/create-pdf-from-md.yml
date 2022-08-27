@@ -15,7 +15,7 @@ on:
     types: [published]
 
 jobs:
-  converttopdf:
+  topdf-with-image:
     name: Markdown to PDF mit Bild
     runs-on: ubuntu-latest
     steps:
@@ -34,20 +34,21 @@ jobs:
         with:
           name: pms
           path: pdfs-mit-bild
-  converttopdf:
-    name: Markdown to PDF ohne Bilder
+
+  topdf-text-only:
+    name: Markdown to PDF nur Text
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - uses: BaileyJM02/markdown-to-pdf@v1.2.0
         with:
           input_path: pms
-          output_dir: pdfs-ohne-bild
+          output_dir: pdfs-nur-text
           # Default is true, can set to false to only get PDF files
           build_html: false
           build_pdf: true
       - uses: actions/upload-artifact@v1
         with:
           name: pms
-          path: pdfs-ohne-bild
+          path: pdfs-nur-text
 
