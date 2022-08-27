@@ -32,7 +32,7 @@ jobs:
           build_pdf: true
       - uses: actions/upload-artifact@v1
         with:
-          name: pms
+          name: pms-img
           path: pdfs-mit-bild
 
   topdf-text-only:
@@ -49,6 +49,6 @@ jobs:
           build_pdf: true
       - uses: actions/upload-artifact@v1
         with:
-          name: pms
+          name: pms-textonly
           path: pdfs-nur-text
 
