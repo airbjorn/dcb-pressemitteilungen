@@ -34,7 +34,7 @@ jobs:
         with:
           name: pms
           path: pdfs-mit-bild
-
+  converttopdf:
     name: Markdown to PDF ohne Bilder
     runs-on: ubuntu-latest
     steps:
