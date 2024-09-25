@@ -35,6 +35,7 @@ jobs:
         with:
           name: pms-img
           path: pdfs-mit-bild
+          overwrite: true
 
   sonstige-topdf-with-image:
     name: Sonstige Markdown to PDF mit Bild
@@ -54,3 +55,4 @@ jobs:
         with:
           name: pms-img
           path: pdfs-mit-bild
+          overwrite: true
