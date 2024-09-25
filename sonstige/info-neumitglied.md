@@ -57,8 +57,9 @@ Unsere Interessengemeinschaft F-Schlepp (IGF) ist eine Mitgliedergruppe, die Hal
 
    Für den Fall dass sich Deine Kontaktdaten ändern (Anschrift, Telefonnummer, Mailadresse oder Bankverbindung), haben wir einen Leitfaden im [Mitgliederservice](https://www.dcb.org/mitgliederservice/) bereit gestellt. Darüber erhältst du Tipps, wie Du bei verschiedenen Änderungen vorgehen kannst, um die verschiedenen Dienste zu aktualisieren.
 
-     Wir wünschen Dir viele schöne und unfallfreie Flugstunden, einen angenehmen Aufenthalt in Altes Lager und viel Spaß im Kreise Deiner neuen Vereinskollegen und -kolleginnen.
-
+     Wir wünschen Dir viele schöne und unfallfreie Flugstunden,
+     einen angenehmen Aufenthalt in Altes Lager
+     und viel Spaß im Kreise Deiner neuen Vereinskollegen und -kolleginnen.
 
 ***Die Mitglieder des Vorstandes***
 
