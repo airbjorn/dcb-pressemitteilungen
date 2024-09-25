@@ -1,6 +1,6 @@
 ![DCB Logo](./images/52n13e.png "DCB Logo")
 
-# Information für neue Mitglieder
+# Information für neue Mitglieder[^fassung]
 ## Liebes Vereinsmitglied,
 
 Herzlich Willkommen im Drachenflieger-Club Berlin e.V.
@@ -62,6 +62,8 @@ Unsere Interessengemeinschaft F-Schlepp (IGF) ist eine Mitgliedergruppe, die Hal
      und viel Spaß im Kreise Deiner neuen Vereinskollegen und -kolleginnen.
 
 ***Die Mitglieder des Vorstandes***
+
+[^fassung]: Fassung 09/2024
 
 ---
 
