@@ -1,3 +1,5 @@
+![DCB Logo](/images/52n13e.png "DCB Logo")
+
 # Information für neue Mitglieder
 ## Liebes Vereinsmitglied,
 
@@ -33,7 +35,7 @@ Unsere Interessengemeinschaft F-Schlepp (IGF) ist eine Mitgliedergruppe, die Hal
 ### Organisatorisches
 1. Mitgliedertreffen
     
-    An (fast) jedem letzten Montag im Monat (außerhalb der Sommerferien) findet unser Mitgliedertreffen statt. Dies ist unsere monatliche Zusammenkunft, wo über Vereinsarbeit (Vorstand, Fliegerbeirat) berichtet wird und Beschlüsse gefasst werden. Hierzu sind alle Mitglieder herzlich Willkommen. Über die o.a. Mitgliederliste dcb-mitglieder@lists.posteo.de erhältst Du vor jedem Treffen eine separate Einladung vom Vorstand.
+    An (fast) jedem letzten Montag im Monat (außerhalb der Sommerferien) findet unser Mitgliedertreffen statt. Dies ist unsere monatliche Zusammenkunft, wo über Vereinsarbeit (Vorstand, Fliegerbeirat) berichtet wird und Beschlüsse gefasst werden. Hierzu sind alle Mitglieder herzlich Willkommen. Über die Mitgliederliste erhältst Du vor jedem Treffen eine separate Einladung vom Vorstand.
 
 2.  Jahreshauptversammlung
 
@@ -51,7 +53,7 @@ Unsere Interessengemeinschaft F-Schlepp (IGF) ist eine Mitgliedergruppe, die Hal
 
 ### Sonstiges
 
-   Wenn Du **Fragen** hast, dann wende Dich bitte an ein erfahrenes Mitglied oder an ein Vorstandsmitglied. Den Zugang zum Hauptschlüssel lass Dir bitte bei Bedarf erklären.
+   Wenn Du weitergehende **Fragen** hast, dann wende Dich bitte an ein erfahrenes Mitglied oder an ein Vorstandsmitglied. Den Zugang zum Hauptschlüssel lass Dir bitte bei Bedarf erklären.
 
    Für den Fall dass sich Deine Kontaktdaten ändern (Anschrift, Telefonnummer, Mailadresse oder Bankverbindung), haben wir einen Leitfaden im [Mitgliederservice](https://www.dcb.org/mitgliederservice/) bereit gestellt. Darüber erhältst du Tipps, wie Du bei verschiedenen Änderungen vorgehen kannst, um die verschiedenen Dienste zu aktualisieren.
 
