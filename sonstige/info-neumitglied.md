@@ -1,6 +1,6 @@
 ![DCB Logo](./images/52n13e.png "DCB Logo")
 
-# Information für neue Mitglieder[^fassung]
+# Information für neue Mitglieder
 ## Liebes Vereinsmitglied,
 
 Herzlich Willkommen im Drachenflieger-Club Berlin e.V.
@@ -30,7 +30,7 @@ Der [Kanal 52N13E](https://signal.group/#CjQKIC6y8bKsSMVrY_87U9QPggXZTzz6ldBg2zC
 Auf der Website steht außerdem der [Schleppbetriebskalender](https://www.dcb.org/termine/windenfahrerplan.php) zur Verfügung. Damit kannst Du Dir selbst ein Bild der interessierten Piloten und Windenfahrer für den nächstmöglichen Schlepptag machen. Und Du kannst Dich selbst als Pilot eintragen, um Dein Interesse für die nächsten Tage zu bekunden.
 
 ### Interessengemeinschaft F-Schlepp (IGF)
-Unsere Interessengemeinschaft F-Schlepp (IGF) ist eine Mitgliedergruppe, die Haltergemeinschaft des vereinseigenen Trikes ist und den Flugzeugschlepp für HG-Piloten organisiert. Mitglied kannst Du hier werden, wenn die aktuellen Mitglieder zustimmen. Für die Organisation des Schleppbetriebs gibt es einen Mailverteiler und eine WhattsApp Gruppe. Ansprechpartner sind Mike Füllgraebe und Bernd Wachowski.
+Unsere Interessengemeinschaft F-Schlepp (IGF) ist eine Mitgliedergruppe, die Haltergemeinschaft des vereinseigenen Trikes ist und den Flugzeugschlepp für HG-Piloten organisiert. Mitglied kannst Du hier werden, wenn die aktuellen IGF-Mitglieder zustimmen. Für die Organisation des F-Schlepps gibt es eine Telegram-Gruppe. Ansprechpartner sind Katharina Dressel und Bernd Wachowski.
 
 ### Organisatorisches
 1. Mitgliedertreffen
@@ -63,7 +63,7 @@ Unsere Interessengemeinschaft F-Schlepp (IGF) ist eine Mitgliedergruppe, die Hal
 
 ***Die Mitglieder des Vorstandes***
 
-[^fassung]: Fassung 09/2024
+Fassung 09/2024
 
 ---
 
