@@ -31,7 +31,7 @@ jobs:
           image_import: ./images
           # Default is true, can set to false to only get PDF files
           build_html: false
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: pms-img
           path: pdfs-mit-bild
@@ -50,7 +50,7 @@ jobs:
           image_import: /images
           # Default is true, can set to false to only get PDF files
           build_html: false
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: pms-img
           path: pdfs-mit-bild
@@ -67,7 +67,7 @@ jobs:
           # Default is true, can set to false to only get PDF files
           build_html: false
           build_pdf: true
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: pms-textonly
           path: pdfs-nur-text
