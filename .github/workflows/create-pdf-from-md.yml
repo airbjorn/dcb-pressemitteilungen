@@ -54,21 +54,3 @@ jobs:
         with:
           name: pms-img
           path: pdfs-mit-bild
-
-  topdf-text-only:
-    name: Markdown to PDF nur Text
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
-      - uses: baileyjm02/markdown-to-pdf@v3
-        with:
-          input_dir: pms
-          output_dir: pdfs-nur-text
-          # Default is true, can set to false to only get PDF files
-          build_html: false
-          build_pdf: true
-      - uses: actions/upload-artifact@v4
-        with:
-          name: pms-textonly
-          path: pdfs-nur-text
-
