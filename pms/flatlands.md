@@ -7,7 +7,7 @@ Jeden Morgen legt ein Expertenteam je nach Wetterlage die Tagesstrecke fest. Die
 
 Sowohl Hängegleiter als auch Gleitschirme fliegen geräuschlos. Lärm entsteht nur zeitweise beim Startvorgang in der ersten Wettkampfwoche bis zum 1. August, wenn die Drachenflieger:innen hinter einem UL-Flugzeug starten. Ab dem 4. August starten die Gleitschirmpilot:innen komplett motorlos.
 
-Die Wettkämpfe werden vom Deutschen Hängegleiterverband (DHV) gemeinsam mit dem Drachenflieger-Club Berlin e.V. (DCB) veranstaltet. Der DCB hat das Gelände seit 1999 zum Schleppzentrum Ost des DHV ausgebaut und es zu einem bundesweit renommierten Luftsportzentrum entwickelt. Der Verein stärkt auch die regionale Verbundenheit: Für Interessierte hat der DCB im letzten Jahr einen Tag der offenen Tür veranstaltet. Anwohner besuchen dabei das Gelände, fliegen als Passagiere mit oder erlernen darauf hin sogar selbst das Fliegen.
+Die Wettkämpfe werden vom Deutschen Hängegleiterverband (DHV) gemeinsam mit dem Drachenflieger-Club Berlin e.V. (DCB) veranstaltet. Der DCB hat das Gelände seit 1999 zum Schleppzentrum Ost des DHV ausgebaut und es zu einem bundesweit renommierten Luftsportzentrum entwickelt. Der Verein stärkt auch die regionale Verbundenheit: Für Interessierte hat der DCB im letzten Jahr einen Tag der offenen Tür veranstaltet. Anwohner besuchten dabei das Gelände, flogen als Passagiere mit oder erlernten in der Folge sogar selbst das Fliegen.
 
 Kontakt für Rückfragen:
 Björn Gerhart, Berlin, +49 151 50813942, kontakt@dcb.org
