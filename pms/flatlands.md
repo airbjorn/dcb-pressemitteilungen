@@ -9,7 +9,8 @@ Den Auftakt machen die Drachenflieger vom 27. bis 31. Juli 2026, gefolgt von den
 
 Das Fluggebiet im Fläming gilt als eine der ergiebigsten Thermikregionen im deutschen Flachland. Die sandigen Böden erwärmen sich schnell und erzeugen kräftige Aufwinde, die Flüge über mehrere Stunden und Distanzen von deutlich über 200 Kilometern ermöglichen. Bereits im Frühjahr wurden von Altes Lager aus entsprechende Strecken realisiert. An klaren Tagen reicht der Blick vom Startplatz bis zur Berliner Skyline oder weit über die Elbe hinaus.
 
-Im Unterschied zu alpinen Fluggebieten erfolgt der Start im Flachland per Schlepp: Gleitschirmflieger werden mit Winden – überwiegend elektrisch betrieben und von Vereinsmitgliedern entwickelt – in die Luft gezogen, Drachenflieger hinter Ultraleicht-Trikes auf rund 600 Meter Höhe geschleppt. Danach entscheiden allein Wetterverständnis, Taktik und das Auffinden der Thermik über den Flugerfolg.
+Im Unterschied zu alpinen Fluggebieten erfolgt der Start im Flachland per Schlepp: die Gleitschirmflieger werden mit Seilwinden in die Luft gezogen. Die Winden werden überwiegend elektrisch betrieben. Die Drachenflieger hinter Ultraleicht-Trikes auf rund 600 Meter Höhe geschleppt.
+Nach dem Ausklinken entscheiden allein Wetterverständnis, Taktik und das Auffinden der nächsten Thermik über den Flugerfolg.
 
 Neben dem sportlichen Wettbewerb prägt auch das Gemeinschaftserlebnis die Veranstaltung. Gemeinsame Briefings am Morgen und die Auswertung der Flüge am Abend schaffen Raum für Austausch zwischen internationalen Teilnehmern.
 
