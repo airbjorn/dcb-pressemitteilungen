@@ -13,9 +13,7 @@ Im Unterschied zu alpinen Fluggebieten erfolgt der Start im Flachland per Schlep
 
 Neben dem sportlichen Wettbewerb prägt auch das Gemeinschaftserlebnis die Veranstaltung. Gemeinsame Briefings am Morgen und die Auswertung der Flüge am Abend schaffen Raum für Austausch zwischen internationalen Teilnehmern.
 
-Für Medien und Zuschauer bieten die German Flatlands eindrucksvolle Bilder: startende Schlepps, dicht gestaffelte Pulks am Himmel und weite Streckenflüge über die Landschaft Brandenburgs. Der Wettbewerb zeigt, dass anspruchsvoller Luftsport nicht nur in den Bergen stattfindet, sondern auch im Flachland vor den Toren Berlins.
-
-Medienvertreterinnen und Medienvertreter sind eingeladen, die Veranstaltung vor Ort zu begleiten. Interviews, Foto- und Filmaufnahmen sowie Einblicke in die Organisation sind nach Absprache möglich.
+Medienvertreterinnen und Medienvertreter sind eingeladen, die Veranstaltung vor Ort zu begleiten. Interviews, Foto- und Filmaufnahmen sowie Einblicke in die Organisation sind nach Absprache möglich.  Der Wettbewerb zeigt, dass anspruchsvoller Luftsport nicht nur in den Bergen stattfindet, sondern auch im Flachland vor den Toren Berlins.
 
 ## Kurzinfo: Drachenflieger-Club Berlin e.V.
 
