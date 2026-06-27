@@ -1,5 +1,5 @@
 # Pressemitteilung zu den Flatlands 2026
-## German Flatlands: Internationale Drachen- und Gleitschirmpiloten fliegen über Brandenburg um Titel und Bestweiten
+## German Flatlands: Internationale Drachen- und Gleitschirmpiloten fliegen über Brandenburg um Titel und Bestzeiten
 
 **Altes Lager/Jüterbog.** Rund 120 Pilotinnen und Piloten aus Deutschland und mindestens acht weiteren Ländern treffen sich Ende Juli und Anfang August zu den „German Flatlands“ auf dem Flugplatz Altes Lager südlich von Berlin.
 
