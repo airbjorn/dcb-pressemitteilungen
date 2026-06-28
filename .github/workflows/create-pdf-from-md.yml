@@ -8,7 +8,6 @@ on:
     paths:
       - 'pms/**/*.md'
       - 'pms/images/**'
-      - 'pms-sonstige/**/*.md'
       - 'images/**'
       - '.github/workflows/create-pdf-from-md.yml'
   release:
@@ -27,9 +26,6 @@ jobs:
           sudo apt-get install -y pandoc
           python3 -m pip install --user weasyprint
 
-      - name: Ausgabeordner anlegen
-        run: mkdir -p pdfs-pms pdfs-sonstige
-
       - name: Markdown nach PDF umwandeln
         run: |
           python3 - <<'PY'
@@ -37,18 +33,13 @@ jobs:
           import subprocess
 
           repo = Path.cwd()
-          sources = [
-              (repo / 'pms', repo / 'pdfs-pms'),
-              (repo / 'pms-sonstige', repo / 'pdfs-sonstige'),
-          ]
+          source_dirs = [repo / 'pms', repo / ]
 
-          for src_dir, out_dir in sources:
+          for src_dir in source_dirs:
               if not src_dir.exists():
                   continue
               for md_file in sorted(src_dir.rglob('*.md')):
-                  rel_path = md_file.relative_to(src_dir)
-                  target = out_dir / rel_path.with_suffix('.pdf')
-                  target.parent.mkdir(parents=True, exist_ok=True)
+                  target = md_file.with_suffix('.pdf')
                   cmd = [
                       'pandoc',
                       str(md_file),
@@ -66,13 +57,12 @@ jobs:
       - name: Gefundene Dateien anzeigen
         run: |
           echo "PDF-Dateien gefunden:"
-          find pdfs-pms pdfs-sonstige -type f -name "*.pdf" | sort
+          find pms -type f -name "*.pdf" | sort
 
       - name: Artefakte hochladen
         uses: actions/upload-artifact@v4
         with:
           name: alle-pdfs
           path: |
-            pdfs-pms/**/*.pdf
-            pdfs-sonstige/**/*.pdf
+            pms/**/*.pdf
           if-no-files-found: error
