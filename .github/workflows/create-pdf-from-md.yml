@@ -39,6 +39,9 @@ jobs:
           image_import: ./images
           build_html: false
 
+      - name: Debug – Verzeichnisstruktur anzeigen
+        run: find . -name "*.pdf" -o -name "*.html" | head -50
+
       - uses: actions/upload-artifact@v4
         with:
           name: alle-pdfs
