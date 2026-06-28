@@ -48,7 +48,7 @@ jobs:
                       '--standalone',
                       '--pdf-engine=weasyprint',
                       '--resource-path',
-                      f'{src_dir}:{repo}',
+                      f'{src_dir}:{repo / "images"}:{repo}',
                   ]
                   print('Konvertiere', md_file, '->', target)
                   subprocess.run(cmd, check=True, cwd=repo)
