@@ -1,3 +1,5 @@
+<img src="../images/52n13e.png" alt="Logo 52n13e" style="float:right; width:140px; margin:0 0 1em 1em;">
+
 # Pressemitteilung zu den Flatlands 2026
 ## German Flatlands - internationale Pilotinnen und Piloten fliegen über Brandenburg um Titel, Punkte und den besten Thermiktag.
 
