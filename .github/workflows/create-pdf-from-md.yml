@@ -22,36 +22,24 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - uses: baileyjm02/markdown-to-pdf@v1
-        with:
-          input_dir: pms
-          output_dir: pdfs-mit-bild
-          images_dir: docs/images
-          # for example <img src="./images/file-name.png">
-          image_import: ./images
-          # Default is true, can set to false to only get PDF files
-          build_html: false
-      - uses: actions/upload-artifact@v4
-        with:
-          name: pms-img
-          path: pdfs-mit-bild
 
-  sonstige-topdf-with-image:
-    name: Sonstige Markdown to PDF mit Bild
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_dir: sonstige
-          output_dir: pdfs-mit-bild
-          images_dir: images
-          # for example <img src="./images/file-name.png">
+          input_path: pms
+          output_dir: pdfs-mit-bild/pms
+          images_dir: docs/images
           image_import: ./images
-          # Default is true, can set to false to only get PDF files
           build_html: false
+
+      - uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_path: sonstige
+          output_dir: pdfs-mit-bild/sonstige
+          images_dir: images
+          image_import: ./images
+          build_html: false
+
       - uses: actions/upload-artifact@v4
         with:
-          name: pms-img
+          name: alle-pdfs
           path: pdfs-mit-bild
-          overwrite: true
