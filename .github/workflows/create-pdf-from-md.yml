@@ -33,7 +33,7 @@ jobs:
           import subprocess
 
           repo = Path.cwd()
-          source_dirs = [repo / 'pms', repo / 'images']
+          source_dirs = [repo / 'pms']
 
           for src_dir in source_dirs:
               if not src_dir.exists():
