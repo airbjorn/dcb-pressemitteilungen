@@ -17,5 +17,3 @@ Im Drachenflieger-Club Berlin e.V. sind etwa 220 Gleitschirm- und Drachenpiloten
 Ansprechpartner für die Presse: Björn Gerhart, Berlin, +49 151 50813942, kontakt@dcb.org
 
 Foto: Markus Henninger
-
-![Gleitschirm-Pilot\*innen über Altes Lager](images/gs-wettbewerb-flatlands-altes-lager.jpg "Gleitschirme über Altes Lager")
