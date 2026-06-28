@@ -23,6 +23,9 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Output-Verzeichnisse anlegen
+        run: mkdir -p pdfs-mit-bild/pms pdfs-mit-bild/sonstige
+
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
           input_path: pms
