@@ -26,7 +26,7 @@ jobs:
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
           input_path: pms
-          output_dir: pdfs-pms
+          output_dir: pdfs-pms          # ← kein Unterordner!
           images_dir: docs/images
           image_import: ./images
           build_html: false
@@ -34,7 +34,7 @@ jobs:
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
           input_path: sonstige
-          output_dir: pdfs-sonstige
+          output_dir: pdfs-sonstige     # ← kein Unterordner!
           images_dir: images
           image_import: ./images
           build_html: false
