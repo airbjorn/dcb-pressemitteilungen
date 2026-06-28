@@ -1,50 +1,57 @@
-# .github/workflows/convert-to-pdf.yml
+name: Markdown to PDF
 
-name: Markdown to PDF and HTML
-# This workflow is triggered on pushes to the repository.
 on:
   workflow_dispatch:
   push:
     branches:
       - main
-    # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
     paths:
-      - 'pms/**.md'
+      - 'pms/**/*.md'
       - 'pms/images/**'
-      - 'sonstige/**.md'
+      - 'pms-sonstige/**/*.md'
       - 'images/**'
+      - '.github/workflows/create-pdf-from-md.yml'
   release:
     types: [published]
 
 jobs:
   topdf-with-image:
-    name: Markdown to PDF mit Bild
+    name: Markdown zu PDF
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
 
-      - uses: baileyjm02/markdown-to-pdf@v1
+      - name: Ausgabeordner anlegen
+        run: mkdir -p pdfs-pms pdfs-sonstige
+
+      - name: Markdown nach PDF (pms)
+        uses: baileyjm02/markdown-to-pdf@v1
         with:
           input_path: pms
-          output_dir: pdfs-pms          # ← kein Unterordner!
-          images_dir: docs/images
-          image_import: ./images
-          build_html: false
-
-      - uses: baileyjm02/markdown-to-pdf@v1
-        with:
-          input_path: sonstige
-          output_dir: pdfs-sonstige     # ← kein Unterordner!
+          output_dir: pdfs-pms
           images_dir: images
           image_import: ./images
           build_html: false
 
-      - name: Debug – Verzeichnisstruktur anzeigen
-        run: find . -name "*.pdf" -o -name "*.html" | head -50
+      - name: Markdown nach PDF (pms-sonstige)
+        uses: baileyjm02/markdown-to-pdf@v1
+        with:
+          input_path: pms-sonstige
+          output_dir: pdfs-sonstige
+          images_dir: images
+          image_import: ./images
+          build_html: false
 
-      - uses: actions/upload-artifact@v4
+      - name: Gefundene Dateien anzeigen
+        run: |
+          echo "PDF-Dateien gefunden:"
+          find pdfs-pms pdfs-sonstige -type f -name "*.pdf" | sort
+
+      - name: Artefakte hochladen
+        uses: actions/upload-artifact@v4
         with:
           name: alle-pdfs
           path: |
-            pdfs-pms
-            pdfs-sonstige
+            pdfs-pms/**/*.pdf
+            pdfs-sonstige/**/*.pdf
+          if-no-files-found: error
