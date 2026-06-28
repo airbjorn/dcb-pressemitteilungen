@@ -21,26 +21,47 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Abhängigkeiten installieren
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc
+          python3 -m pip install --user weasyprint
+
       - name: Ausgabeordner anlegen
         run: mkdir -p pdfs-pms pdfs-sonstige
 
-      - name: Markdown nach PDF (pms)
-        uses: baileyjm02/markdown-to-pdf@v1
-        with:
-          input_path: pms
-          output_dir: pdfs-pms
-          images_dir: images
-          image_import: ./images
-          build_html: false
+      - name: Markdown nach PDF umwandeln
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          import subprocess
 
-      - name: Markdown nach PDF (pms-sonstige)
-        uses: baileyjm02/markdown-to-pdf@v1
-        with:
-          input_path: pms-sonstige
-          output_dir: pdfs-sonstige
-          images_dir: images
-          image_import: ./images
-          build_html: false
+          repo = Path.cwd()
+          sources = [
+              (repo / 'pms', repo / 'pdfs-pms'),
+              (repo / 'pms-sonstige', repo / 'pdfs-sonstige'),
+          ]
+
+          for src_dir, out_dir in sources:
+              if not src_dir.exists():
+                  continue
+              for md_file in sorted(src_dir.rglob('*.md')):
+                  rel_path = md_file.relative_to(src_dir)
+                  target = out_dir / rel_path.with_suffix('.pdf')
+                  target.parent.mkdir(parents=True, exist_ok=True)
+                  cmd = [
+                      'pandoc',
+                      str(md_file),
+                      '-o',
+                      str(target),
+                      '--standalone',
+                      '--pdf-engine=weasyprint',
+                      '--resource-path',
+                      f'{src_dir}:{repo}',
+                  ]
+                  print('Konvertiere', md_file, '->', target)
+                  subprocess.run(cmd, check=True, cwd=repo)
+          PY
 
       - name: Gefundene Dateien anzeigen
         run: |
