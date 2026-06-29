@@ -86,7 +86,8 @@ jobs:
             echo "Keine neuen PDF-Dateien zum Committen."
           else
             git commit -m "chore: update generated PDFs [skip ci]"
-            git push origin HEAD:${GITHUB_REF_NAME}
+            echo "PDF-Dateien wurden lokal als Commit erzeugt."
+            echo "Push auf ${GITHUB_REF_NAME} wird übersprungen, weil der Branch geschützt ist."
           fi
 
       - name: Artefakte hochladen
