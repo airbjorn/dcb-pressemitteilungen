@@ -1,5 +1,5 @@
 <div style="text-align:right; margin:0 0 1em 1em;">
-<img src="../images/52n13e.png" alt="Logo 52n13e" width="140" />
+<img src="../images/52n13e_hd.png" alt="Logo 52n13e" width="220" />
 </div>
 
 # Pressemitteilung zu den Flatlands 2026
