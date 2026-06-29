@@ -17,8 +17,12 @@ jobs:
   topdf-with-image:
     name: Markdown zu PDF
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Abhängigkeiten installieren
         run: |
@@ -30,16 +34,23 @@ jobs:
         run: |
           python3 - <<'PY'
           from pathlib import Path
+          import os
           import subprocess
+          from datetime import datetime, timezone
 
           repo = Path.cwd()
           source_dirs = [repo / 'pms']
+          output_dir = repo / 'generated'
+          output_dir.mkdir(exist_ok=True)
+          short_sha = os.environ.get('GITHUB_SHA', '').strip()[:7] or 'local'
+          timestamp = datetime.now(timezone.utc).strftime('%Y%m%d-%H%M%S')
 
           for src_dir in source_dirs:
               if not src_dir.exists():
                   continue
               for md_file in sorted(src_dir.rglob('*.md')):
-                  target = md_file.with_suffix('.pdf')
+                  target_name = f"{md_file.stem}-{short_sha}-{timestamp}.pdf"
+                  target = output_dir / target_name
                   temp_md = md_file.with_suffix('.tmp.md')
                   content = md_file.read_text(encoding='utf-8')
                   content = content.replace('../images/52n13e.png', str(repo / 'images' / '52n13e.png').replace(str(repo), '.'))
@@ -64,12 +75,24 @@ jobs:
       - name: Gefundene Dateien anzeigen
         run: |
           echo "PDF-Dateien gefunden:"
-          find pms -type f -name "*.pdf" | sort
+          find generated -type f -name "*.pdf" | sort
+
+      - name: Änderungen in Git committen
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          find generated -type f -name "*.pdf" -exec git add {} +
+          if git diff --cached --quiet; then
+            echo "Keine neuen PDF-Dateien zum Committen."
+          else
+            git commit -m "chore: update generated PDFs [skip ci]"
+            git push origin HEAD:${GITHUB_REF_NAME}
+          fi
 
       - name: Artefakte hochladen
         uses: actions/upload-artifact@v4
         with:
           name: alle-pdfs
           path: |
-            pms/**/*.pdf
+            generated/**/*.pdf
           if-no-files-found: error
