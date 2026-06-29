@@ -8,6 +8,7 @@ on:
     paths:
       - 'pms/**/*.md'
       - 'pms/images/**'
+      - 'sonstige/**/*.md'
       - 'images/**'
       - '.github/workflows/create-pdf-from-md.yml'
   release:
@@ -39,7 +40,7 @@ jobs:
           from datetime import datetime, timezone
 
           repo = Path.cwd()
-          source_dirs = [repo / 'pms']
+          source_dirs = [repo / 'pms', repo / 'sonstige']
           output_dir = repo / 'generated'
           output_dir.mkdir(exist_ok=True)
           short_sha = os.environ.get('GITHUB_SHA', '').strip()[:7] or 'local'
