@@ -50,7 +50,7 @@ jobs:
               if not src_dir.exists():
                   continue
               for md_file in sorted(src_dir.rglob('*.md')):
-                  target_name = f"{md_file.stem}-{short_sha}-{timestamp}.pdf"
+                  target_name = f"{md_file.stem}-{timestamp}-{short_sha}.pdf"
                   target = output_dir / target_name
                   temp_md = md_file.with_suffix('.tmp.md')
                   content = md_file.read_text(encoding='utf-8')
