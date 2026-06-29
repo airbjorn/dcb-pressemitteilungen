@@ -42,9 +42,7 @@ jobs:
                   target = md_file.with_suffix('.pdf')
                   temp_md = md_file.with_suffix('.tmp.md')
                   content = md_file.read_text(encoding='utf-8')
-                  high_res_logo = str((repo / 'images' / '52n13e_hd.png').resolve())
-                  content = content.replace('../images/52n13e.png', high_res_logo)
-                  content = content.replace('../images/52n13e_hd.png', high_res_logo)
+                  content = content.replace('../images/52n13e.png', str(repo / 'images' / '52n13e.png').replace(str(repo), '.'))
                   temp_md.write_text(content, encoding='utf-8')
 
                   cmd = [
