@@ -82,7 +82,8 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git checkout -B generated-pdfs
+          git fetch origin generated-pdfs || true
+          git checkout -B generated-pdfs origin/generated-pdfs || git checkout -B generated-pdfs
           find generated -type f -name "*.pdf" -exec git add {} +
           if git diff --cached --quiet; then
             echo "Keine neuen PDF-Dateien zum Committen."
