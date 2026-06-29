@@ -40,19 +40,25 @@ jobs:
                   continue
               for md_file in sorted(src_dir.rglob('*.md')):
                   target = md_file.with_suffix('.pdf')
+                  temp_md = md_file.with_suffix('.tmp.md')
+                  content = md_file.read_text(encoding='utf-8')
+                  content = content.replace('../images/52n13e.png', str(repo / 'images' / '52n13e.png').replace(str(repo), '.'))
+                  temp_md.write_text(content, encoding='utf-8')
+
                   cmd = [
                       'pandoc',
-                      str(md_file),
+                      str(temp_md),
                       '-o',
                       str(target),
                       '--standalone',
                       '--embed-resources',
                       '--pdf-engine=weasyprint',
                       '--resource-path',
-                      f'{md_file.parent}:{md_file.parent.parent / "images"}:{md_file.parent.parent}',
+                      f'{src_dir}:{repo / "images"}:{repo}',
                   ]
                   print('Konvertiere', md_file, '->', target)
-                  subprocess.run(cmd, check=True, cwd=md_file.parent)
+                  subprocess.run(cmd, check=True, cwd=repo)
+                  temp_md.unlink(missing_ok=True)
           PY
 
       - name: Gefundene Dateien anzeigen
