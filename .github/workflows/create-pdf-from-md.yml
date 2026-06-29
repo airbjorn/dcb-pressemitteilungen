@@ -49,10 +49,10 @@ jobs:
                       '--embed-resources',
                       '--pdf-engine=weasyprint',
                       '--resource-path',
-                      f'{src_dir}:{repo / "images"}:{repo}:{md_file.parent}',
+                      f'{md_file.parent}:{md_file.parent.parent / "images"}:{md_file.parent.parent}',
                   ]
                   print('Konvertiere', md_file, '->', target)
-                  subprocess.run(cmd, check=True, cwd=repo)
+                  subprocess.run(cmd, check=True, cwd=md_file.parent)
           PY
 
       - name: Gefundene Dateien anzeigen
