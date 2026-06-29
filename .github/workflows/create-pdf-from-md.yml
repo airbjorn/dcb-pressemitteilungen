@@ -81,13 +81,13 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout -B generated-pdfs
           find generated -type f -name "*.pdf" -exec git add {} +
           if git diff --cached --quiet; then
             echo "Keine neuen PDF-Dateien zum Committen."
           else
             git commit -m "chore: update generated PDFs [skip ci]"
-            echo "PDF-Dateien wurden lokal als Commit erzeugt."
-            echo "Push auf ${GITHUB_REF_NAME} wird übersprungen, weil der Branch geschützt ist."
+            git push origin generated-pdfs --force-with-lease
           fi
 
       - name: Artefakte hochladen
