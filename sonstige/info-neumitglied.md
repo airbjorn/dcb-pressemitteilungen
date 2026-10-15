@@ -1,4 +1,4 @@
-![DCB Logo](../images/52n13e.png "DCB Logo")
+![DCB Logo](../images/52n13e.png " ")
 
 # Information für neue Mitglieder
 ## Liebes Vereinsmitglied,
@@ -63,7 +63,7 @@ Unsere Interessengemeinschaft F-Schlepp (IGF) ist eine Mitgliedergruppe, die Hal
 
 ***Die Mitglieder des Vorstandes***
 
-Fassung 09/2024
+Fassung 10/2026
 
 ---
 
