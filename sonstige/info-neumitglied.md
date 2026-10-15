@@ -73,7 +73,7 @@ Diese Hinweise ersetzen weder eine ausführliche Auseinandersetzung mit den Ver�
 
 1. Bitte beachte immer, dass wir nicht nur ein DHV- Schleppgelände sind, sondern vor allem auch ein Sonderlandeplatz mit §6 Zulassung für Windenschlepp und UL-Betrieb. Wir organisieren unseren Flugbetrieb in Abstimmung, gegenseitiger Information und kameradschaftlicher Rücksichtnahme unter allen Beteiligten.
 
-3. Das Fliegen auf den Geländen des DCB ist ausschließlich mit komplett gütegesiegelter Ausrüstung, gültiger Haftpflichtversicherung und Pilotenlizenz zugelassen. Wir empfehlen dringend ein LPD-Funkgerät, das mindestens den sicheren Empfang während des Fluges ermöglicht (Helmset).
+3. Das Fliegen auf den Geländen des DCB ist ausschließlich mit komplett gütegesiegelter Ausrüstung, gültiger Haftpflichtversicherung und Pilotenlizenz zugelassen. Wir empfehlen dringend ein PMR-Funkgerät, das mindestens den sicheren Empfang während des Fluges ermöglicht (Helmset).
 
 4. Den Weisungen des Flugleiters, des Startleiters bzw. Windenfahrers ist selbstverständlich in jedem Fall Folge zu leisten. Wird nur Windenschlepp durchgeführt, dann ist der Startleiter der Verantwortliche am Platz. Findet auch UL-Betrieb statt, dann haben wir einen Flugleiter.
 
@@ -87,7 +87,7 @@ Diese Hinweise ersetzen weder eine ausführliche Auseinandersetzung mit den Ver�
 
 9. Fahrzeuge sind nur seitlich vom Schleppgelände am äußersten Rand des Taxiways abzustellen. Fahrzeuge dürfen nicht auf Grasflächen geparkt werden. Das Befahren der Piste ist möglichst zu vermeiden. Sollte es doch notwenig sein, dann hat es grundsätzlich am äußerten Rand zu erfolgen. Dabei ist immer der Flugverkehr zu beachten. Vor dem Befahren oder Überqueren der Piste ist anzuhalten. Die Höchstgeschwindigkeit auf dem Platz beträgt für Fahrzeuge 30 km/h.
 
-10. Wir queren die Seilauslegebahnen der Winden nicht. Nicht mit Fahrzeugen und nicht zu Fuß. Ist dies auf der Nord-Süd Schleppstrecke doch einmal erforderlich, dann nur nach Funkkontakt bzw. Sichtzeichen (Grüne Kelle) vom Windenfahrer.
+10. Wir queren die Seilauslegebahnen der Winden nicht. Nicht mit Fahrzeugen und nicht zu Fuß. Ist dies auf der Nord-Süd Schleppstrecke doch einmal erforderlich, dann nur nach Funkkontakt.
 
 11. Beteilige Dich aktiv an der Organisation des Flugbetriebes. Hilf anderen Piloten, wenn nötig (z.B. bei böigem Wind) bei der Starvorbereitung, lege die Seile aus, wenn der Lepo ankommt, Fahre den Lepo, Beobachte den Betrieb auf dem Platz und, und …  Bitte übernimm Aufgaben nur dann, wenn Du sicher bist diese zu beherrschen. Ansonsten lass Dich einweisen oder frag erfahrene Mitglieder. Dies gilt ganz besonders für die verantwortungsvolle Aufgabe des Startleiters.
 
