@@ -1,4 +1,4 @@
-![DCB Logo](../images/52n13e.png " ")
+![DCB Logo](../images/52n13e.png)
 
 # Information für neue Mitglieder
 ## Liebes Vereinsmitglied,
